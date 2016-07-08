@@ -39,6 +39,7 @@ body{
 	height: 0;
 	margin: 0;
 	position: absolute;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -105,6 +106,7 @@ a:hover{
 	p{font-size: 0.5em;}
 	#quote{ font-size: 0.65em;}
 	kbd{font-size: 0.35em;}
+	body{background-size: 300% 100%}
 }	
 
 
