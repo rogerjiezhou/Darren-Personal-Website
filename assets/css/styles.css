@@ -106,7 +106,7 @@ a:hover{
 	p{font-size: 0.5em;}
 	#quote{ font-size: 0.65em;}
 	kbd{font-size: 0.35em;}
-	body{background-size: 300% 100%}
+	body{background-size: cover;}
 }	
 
 
