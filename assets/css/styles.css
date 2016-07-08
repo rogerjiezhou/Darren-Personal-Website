@@ -1,0 +1,260 @@
+@font-face{
+	font-family: knorke;
+	src: url("Knorke.ttf");
+}
+
+@font-face{
+	font-family: domine;
+	src: url("Domine-Regular.ttf");
+}
+
+@font-face{
+	font-family: newsflash;
+	src: url("newsflash.ttf");
+}
+
+@font-face{
+	font-family: lumos;
+	src: url("LUMOS.TTF");
+}
+
+@font-face{
+	font-family: berylium;
+	src: url("berylium rg.ttf");
+}
+
+@font-face{
+	font-family: ironlatch;
+	src: url("Iron Latch.TTF");
+}
+
+
+
+
+body{
+	background-image: url(../img/coffee11.jpg);
+	background-attachment: fixed;
+	background-position: right center;
+	width: 100%;
+	height:0;
+	margin: 0;
+	position: absolute;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
+h1 {
+	font-family: berylium;
+	font-size: 5em;
+	color: #f8f8f8;
+}
+
+h2 {
+	font-size: 3.5em;
+	font-family: berylium;
+	color: #f8f8f8;
+}
+
+h3 {
+	font-family: berylium;
+}
+
+h4 {
+	font-family: berylium;
+}
+
+p {
+	font-size: 0.40em;
+	color: 063852;
+	font-family: berylium;
+}
+
+#quote{
+	background-color: rgba(0,0,0,0);
+	color: #f8f8f8;
+	font-family: berylium;
+	font-size: 0.75em;
+}
+
+kbd {
+	font-size: 0.5em;
+	background-color: rgba(0,0,0,0);
+	color: #f8f8f8;
+}
+
+a:hover{
+	cursor:pointer;
+}
+
+
+#navvy {
+	font-size: 1.35em;
+	font-family: berylium;
+}
+
+#b00 {
+	font-family: berylium;
+}
+
+@media (max-width: 767px){
+	h1{font-size:0.85em;}
+	h2{font-size: 2.25em;}
+	h3{font-size: 2em;}
+	small{font-size: 2.5em;}
+	p{font-size: 0.5em;}
+	#quote{ font-size: 0.65em;}
+	kbd{font-size: 0.35em;}
+}	
+
+
+#header{
+	height: 93vh;
+	margin:0;
+	text-align: left;
+	color: #FFFFFF;
+
+	background-color: transparent;
+}
+
+#blackBar{
+	color: #FFFFFF;
+}
+
+#more{
+	position: fixed;
+	right: 10px;
+	color: #FFFFFF;
+}
+
+
+
+#title{
+	padding-top: 100px;
+	font-size: 3em;
+	background-color: rgba(0,0,0,0);
+	padding-bottom: 50px;
+	
+}
+
+#profile{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	background-color: #f8f8f8;
+	text-align: right;
+	color: #b38867;
+}
+
+#profile h2{
+	color: #b38867;
+}
+
+#profile small{ 
+	color: #b38867;
+}
+
+#profilePhoto{
+	width: 20vw;
+	margin:0;
+	border: 5px solid #b38867;
+	height: auto;
+
+}
+
+#details{
+	border-radius: 10%;	
+	text-align: left;
+}
+
+#about3{
+	color: #b38867;
+	font-family: berylium;
+	font-size: 0.9em;
+	
+}
+
+#education{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	color: #f8f8f8;
+	background-color: #b38867;
+}
+
+#technicalSkills{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	color: #b38867;
+	background-color: #f8f8f8;
+}
+
+#technicalSkills h2{ 
+	color: #b38867;	
+}
+
+#technicalExperience{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	color: #f8f8f8;
+	background-color: #b38867;
+}
+
+#technicalExperience a{
+	color: #f8f8f8;
+}
+
+#portfolio{
+	padding-top: 75px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	color: #b38867;
+	background-color: #f8f8f8;
+}
+
+#portfolio h2{
+	color: #b38867;
+}
+
+#contact{
+	background-color: #626d71;
+	padding-top: 10px;
+	padding-bottom: 75px;
+	overflow: auto;
+	margin: 0;
+	color: #cdcdc0;
+	
+}
+
+.contactCats {
+	padding-bottom: 50px;
+	color: #f8f8f8;
+}
+
+.contactCats a{
+	color: #f8f8f8;
+}
+
+#blackBar{
+	background-color: #000000;
+	height:7vh;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li a{
+	display: block;
+	width: auto;
+}
