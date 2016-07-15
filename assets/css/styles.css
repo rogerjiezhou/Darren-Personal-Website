@@ -224,7 +224,7 @@ a:hover{
 	overflow: auto;
 	margin: 0;
 	color: #b38867;
-	background-color: #f8f8f8;
+	background: rgba(248,248,248, 0.75);
 }
 
 #projects figure{
@@ -254,7 +254,7 @@ a:hover{
 }
 
 #projects h2{
-	color: #b38867;
+	color: #000000;
 }
 
 #portfolio{
