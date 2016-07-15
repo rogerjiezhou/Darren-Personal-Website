@@ -39,6 +39,8 @@ body{
 	margin: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 
 h1 {
