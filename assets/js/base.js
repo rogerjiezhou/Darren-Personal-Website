@@ -27,6 +27,14 @@ $("#b2a").click(function() {
 		scrollTop: $("#technicalExperience").offset().top
 	}, 850);
 });
+
+$("#b2b").click(function() {
+	$('html, body').animate({
+		scrollTop: $("#projects").offset().top
+	}, 850);
+});
+
+
 $("#b3").click(function() {
 	$('html, body').animate({
 		scrollTop: $("#portfolio").offset().top
@@ -69,3 +77,24 @@ $("input#value").click(function() {
 	$('#b1').toggleClass("customHover");
 	alert ('true');
 });
+
+
+function te1(){
+	window.open("https://github.com/drrnyip/MontyRun");
+}
+
+function te2(){
+	window.open("https://github.com/drrnyip/Hotel-Database");
+}
+
+function te3(){
+	window.open("https://github.com/drrnyip/ChatApp");
+}
+
+function pr1(){
+	window.open("http://akashicrecordsusa.com/profamily2");
+}
+
+function pr2(){
+	window.open("https://play.google.com/store/apps/details?id=com.whixpyl.montyrun&hl=en");
+}
