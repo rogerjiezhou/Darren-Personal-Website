@@ -35,12 +35,9 @@ body{
 	background-image: url(../img/tree1.jpg);
 	background-attachment: fixed;
 	background-position: right;
-	width: 100%;
 	margin: 0;
 	background-size: cover;
 	background-repeat: no-repeat;
-	overflow-x: hidden;
-	overflow-y: auto;
 }
 
 h1 {
