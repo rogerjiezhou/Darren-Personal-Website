@@ -32,9 +32,9 @@
 
 
 body{
-	background-image: url(../img/coffee11.jpg);
+	background-image: url(../img/tree1.jpg);
 	background-attachment: fixed;
-	background-position: right center;
+	background-position: left center;
 	width: 100%;
 	height: 0;
 	margin: 0;
@@ -42,8 +42,6 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-
-
 
 h1 {
 	font-family: berylium;
@@ -121,7 +119,7 @@ a:hover{
 #header{
 	height: 93vh;
 	margin:0;
-	text-align: left;
+	text-align: right;
 	color: #FFFFFF;
 
 	background-color: transparent;
@@ -266,4 +264,9 @@ ul {
 li a{
 	display: block;
 	width: auto;
+}
+
+.customHover{
+	background-color: #DCDCDC;
+	color: #f8f8f8;
 }

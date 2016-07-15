@@ -58,3 +58,14 @@ $("#b4d").click(function() {
 $('.nav a').click(function(){
 	$('#navvy').collapse('hide');
 });
+
+$(document).ready(function(){
+
+});
+
+
+
+$("input#value").click(function() {
+	$('#b1').toggleClass("customHover");
+	alert ('true');
+});
