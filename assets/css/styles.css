@@ -108,7 +108,6 @@ a:hover{
 		background-attachment: fixed;
 		background-position: right;
 		margin: 0;
-		position: absolute;
 		background-size: cover;
 		background-repeat: no-repeat;
 	}
