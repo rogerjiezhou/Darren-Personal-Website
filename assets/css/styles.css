@@ -106,14 +106,6 @@ a:hover{
 	p{font-size: 0.5em;}
 	#quote{ font-size: 0.65em;}
 	kbd{font-size: 0.35em;}
-	body{
-		background-image: url(../img/tree1.jpg);
-		background-attachment: fixed;
-		background-position: right;
-		margin: 0;
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
 }	
 
 
