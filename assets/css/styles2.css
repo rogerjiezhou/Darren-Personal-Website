@@ -1,0 +1,10 @@
+body{
+    background-image: url(../img/tree1.jpg);
+    background-size:cover;
+    -webkit-background-image: url(../img/tree1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-image: url(../img/tree1.jpg);
+    -moz-background-size: cover;
+    -o-background-image: url(../img/tree1.jpg);
+    -o-background-size: cover;
+}
