@@ -3,6 +3,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: right center;
     -webkit-background-image: url(../img/tree1.jpg);
     -webkit-background-size: cover;
     -moz-background-image: url(../img/tree1.jpg);
