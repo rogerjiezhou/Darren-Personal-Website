@@ -3,16 +3,15 @@
     src: url("berylium rg.ttf");
 }
 
-#background{
-    position: absolute;
-    top: 0;
-    left: 0;
+body {
+    background-image: url(../img/tree1.jpg);
+    background-attachment: fixed;
+    background-position: center right;
+    background-size: cover;
+    width: inherit;
+    margin: 0;
+    padding: 0;
     z-index: -1;
-}
-
-#background img{
-    background-size: 93vh;
-
 }
 
 #blackBar{
@@ -26,9 +25,9 @@
     height: 95vh;
     color: #f8f8f8;
     margin: 0;
-    padding-top: 25vh;
+    padding-top: 20vh;
     text-align: right;
-    padding-left: 10vh;
+    padding-left: 10px;
     display:block;
 }
 
